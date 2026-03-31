@@ -1,0 +1,25 @@
+/* reset : 태그마다 갖고있는 기본스타일 없애는 스타일 */
+* {margin: 0; padding: 0;}
+a {color: #333; text-decoration: none;}
+
+
+.wrap {width: 990px; margin: 0 auto; border: 1px solid #000;}
+.header {width: 785px; height: 93px; background: #eee; margin: 0 auto 9px auto;}
+
+.header .top {display: flex; justify-content: space-between;}
+.header .top h1 {width: 200px; height: 60px; background: red;}
+.header .top .topmenu {width: 250px; height: 45px; background: blue;}
+
+.header nav {width: 785px; height: 28px; background: green; margin-top: 5px;}
+
+
+.visual {width: 990px; height: 392px; background: #ccc;}
+
+
+.section {width: 785px; height: 230px; margin: 32px auto 55px auto; background: #888; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.section .bannerbox {width: 510px; height: 166px; background: red;}
+.section .popbox {width: 247px; height: 156px; background: green;}
+.section .noticebox {width: 785px; height: 32px; background: blue; margin-top: 32px;}
+
+
+.footer {width: 990px; height: 90px; background: #444;}
